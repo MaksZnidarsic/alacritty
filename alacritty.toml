@@ -1,0 +1,16 @@
+
+
+
+import = ["~/.config/alacritty/rose-pine.toml"]
+
+[window]
+decorations = "None"
+
+[font]
+size = 11
+
+[font.normal]
+family = "Ubuntu Mono"
+
+[shell]
+program = "tmux"
