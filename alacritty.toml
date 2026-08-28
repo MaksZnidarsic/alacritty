@@ -12,9 +12,17 @@
 [window]
 decorations = "None"
 
+
 [font]
 normal.family = "UbuntuMono Nerd Font"
 size = 11
 
+
 [general]
 import = ["~/.config/alacritty/pink.toml"]
+
+
+[keyboard]
+bindings = [
+    {key = "Enter", mods = "Alt|Control", action = "SpawnNewInstance"}
+]
